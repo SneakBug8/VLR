@@ -3,10 +3,12 @@ changeBg("info")
 cleardo()
 changetext("Пример теста по информатике")
 addaction("Начать тест","act")
+pp=0
 });
 
 function act()
 {
+	cleardo()
 	changetext("В двоичном кодировании для кодировки используют  два значения: 1 и 2.")
 	addaction("Верно","act2")
 	addaction("Не верно","act1") //T
@@ -14,7 +16,7 @@ function act()
 
 function act1()
 {
-	points=points+10
+	pp=pp+10
 	act2()
 
 }
@@ -29,7 +31,7 @@ addaction("Не верно","act4")
 
 function act3()
 {
-	points=points+10
+	pp=pp+10
 	act4()
 }
 
@@ -43,7 +45,7 @@ addaction("Не верно","act5") //T
 
 function act5()
 {
-	points=points+10
+	pp=pp+10
 	act6()
 }
 
@@ -59,12 +61,12 @@ addaction("3","act8")
 
 function act7()
 {
-	points=points+30
+	pp=pp+30
 	act8()
 }
 
 function act8()
 {
 	cleardo()
-changetext("На этом и закончился наш маленький тест. Ваш результат - "+points)
+changetext("На этом и закончился наш маленький тест. Ваш результат - "+pp)
 }
