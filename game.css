@@ -1,6 +1,5 @@
 body {
-background-image: url('http://i.imgur.com/wocn57G.png');
-background-color:#e8d7a9;
+background-color:#fff;
 background-position: 50% 50%;
 }
 .game {
@@ -12,8 +11,7 @@ background-position: 50% 50%;
     border-radius: 10px; /* Радиус скругления */
 	box-shadow: 4px 4px 5px 5px #252525;
 	height: 600px;
-	background-image: url('images/back.jpg');
-	background-color: #e8d7a9;
+	background-color: #fff;
 	color:#362620;
 	font-size: 16pt;
 	text-align: left;
@@ -27,7 +25,6 @@ background-position: 50% 50%;
 	position: relative;
 	height: 400px;
 	float: center;
-	background-image: url('images/bal.jpg');
 	background-color: grey;
 	border: 3px solid #c89970; /* Светлая рамка */
     border-radius: 10px; /* Радиус скругления */
