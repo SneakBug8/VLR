@@ -58,10 +58,10 @@ function showend(text){
 
 function syncheck(str)
 {
-	str.replace("[[","<a href='javascript://'")
-	str.replace("((","onClick='")
-	str.replace("))","'")
-	str.replace("|",">")
-	str.replace("]]","</a>")
+	str=str.replace("[[","<a href='javascript://'")
+	str=str.replace("((","onClick='")
+	str=str.replace("))","'")
+	str=str.replace("|",">")
+	str=str.replace("]]","</a>")
 	return str;
 }
