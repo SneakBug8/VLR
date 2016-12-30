@@ -99,7 +99,7 @@ function points(num)
 }
 
 
-// Сохранения [Disabled]
+// Сохранения [WIP]
 
 function load()
 {
