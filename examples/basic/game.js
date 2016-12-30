@@ -15,11 +15,11 @@ function act()
 	{ word="раз"}
 	else if (times<5)
 	{
-		word="раза"
+		word=" раза"
 	}
 	else
 	{
-		word="раз"
+		word=" раз"
 	}
 	changetext("Вы нажали на кнопку "+times+word+".")
 }
