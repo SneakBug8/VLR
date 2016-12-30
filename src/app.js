@@ -106,20 +106,6 @@ function clear()
 	Cookies.remove('stage');
 }
 
-// Музыка
-
-function disablemusic()
-{
-dismuss=1
-background.pause()
-remaction(MUSACT)
-}
-
-function enablemusic()
-{
-dismuss=0
-}
-
 function reload() // Выполняется каждые 10 секунд
 {
 	time=time+10 // Запись времени каждые 10 секунд

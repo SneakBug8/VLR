@@ -15,5 +15,5 @@ addaction("Выключить музыку","disablemusic")
 function act()
 {
 	times=times+1
-	changetext="Вы нажали на кнопку "+times+" раз."
+	changetext("Вы нажали на кнопку "+times+" раз.")
 }
