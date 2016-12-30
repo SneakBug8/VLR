@@ -2,7 +2,7 @@ $(document).ready(function() {
 changeBg("info")
 cleardo()
 changetext("Пример теста по информатике")
-addaction("Начать текст","act1")
+addaction("Начать тест","act")
 });
 
 function act()
@@ -33,7 +33,7 @@ function act3()
 	act4()
 }
 
-function act2()
+function act4()
 {
 cleardo()
 changetext("Цифры 1 и 2,   хранящиеся в «клетках» памяти компьютера, называются значениями битов.")
