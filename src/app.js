@@ -19,6 +19,24 @@ function changeBg(pic){
 $('.image').css('background-image', "url('images/"+pic+".jpg')")
 }
 
+function addtext(text){
+	text=document.getElementById("desc").innerHTML+text
+	if (DESC_TYPING==1)
+	{
+	 $("p.desc").typed({
+            strings: [text],
+			typeSpeed: DESC_SPEED,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+        });
+	}
+	else
+	{
+   $("p.desc").html(text)
+	}
+}
+
 // Изменение описания
 function changetext(text){
 	if (DESC_TYPING==1)
