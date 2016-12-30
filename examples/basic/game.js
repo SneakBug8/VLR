@@ -1,5 +1,4 @@
 $(document).ready(function() {
-changeBg("revol")
 cleardo()
 changetext("Index")
 addaction("Action1","act")
