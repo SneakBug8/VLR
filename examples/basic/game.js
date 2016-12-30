@@ -15,5 +15,15 @@ addaction("Выключить музыку","disablemusic")
 function act()
 {
 	times=times+1
-	changetext("Вы нажали на кнопку "+times+" раз.")
+	if (times==1)
+	{ word="раз"}
+	else if (times<5)
+	{
+		word="раза"
+	}
+	else
+	{
+		word="раз"
+	}
+	changetext("Вы нажали на кнопку "+times+word+".")
 }
