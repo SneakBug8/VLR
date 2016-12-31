@@ -63,5 +63,8 @@ function syncheck(str)
 	str=str.replace("))","()'")
 	str=str.replace("|",">")
 	str=str.replace("]]","</a>")
+	str.replace("{{","<img src='")
+	// str.replace("}}","''")
 	return str;
 }
+{{image.jpg((part2))}}
