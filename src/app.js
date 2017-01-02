@@ -5,7 +5,10 @@ time=0
 
 // Функция, выполняемая при окончании загрузки элемента
 $(document).ready(function() {
-
+if (screen.width<REDIRECT_W || screen.height<REDIRECT_H)
+{
+	window.location=MOBILE_ADR
+}
 	$("#author").html('<a id="author "href="'+AUTHORLINK+'">'+AUTHOR+'</a>')
 	$('title').text(TITLE);
 	if (TIMER==1)
