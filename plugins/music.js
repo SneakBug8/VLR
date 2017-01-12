@@ -1,5 +1,8 @@
 var background = document.createElement('audio');
+if (MUSIC_LOOP)
+{
 background.loop="loop"
+}
 
 // Музыка
 

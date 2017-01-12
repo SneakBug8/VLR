@@ -19,4 +19,4 @@ dismuss=0 // =1, если хотите отключить музыку
 // Переадресация на моб версию.
 REDIRECT_W=400 // Макс Ширина для редиректа
 REDIRECT_H=400 // Макс Высота для редиректа
-MOBILE_ADR="http://www.etrt.ru/kril/mob.html" // Адрес для редиректа
+MOBILE_ADR="https://sneakbug8.github.io/VLR/examples/vlr/mob.html" // Адрес для редиректа

@@ -11,7 +11,7 @@ if (screen.width<REDIRECT_W || screen.height<REDIRECT_H)
 }
 	$("#author").html('<a id="author "href="'+AUTHORLINK+'">'+AUTHOR+'</a>')
 	$('title').text(TITLE);
-	if (TIMER==1)
+	if (TIMER)
 	{
 	setInterval(reload, 10000)
 	}
@@ -24,7 +24,7 @@ $('.image').css('background-image', "url('images/"+pic+".jpg')")
 
 function addtext(text){
 	text=document.getElementById("desc").innerHTML+text
-	if (DESC_TYPING==1)
+	if (DESC_TYPING)
 	{
 	 $("p.desc").typed({
             strings: [text],
@@ -42,7 +42,7 @@ function addtext(text){
 
 // Изменение описания
 function changetext(text){
-	if (DESC_TYPING==1)
+	if (DESC_TYPING)
 	{
 	 $("p.desc").typed({
             strings: [text],
@@ -58,9 +58,9 @@ function changetext(text){
 	}
 }
 
-// Вывод концовки
+// Вывод финала программы
 function showend(text){
-	if (DESC_TYPING==1)
+	if (END_TYPING)
 	{
 	$("div.game").typed({
             strings: [text],
@@ -94,14 +94,6 @@ function cleardo()
     $("ul.do").html("")
 }
 
-// Система очков [In development]
-
-function points(num)
-{
-	window.points=points+num
-}
-
-
 // Сохранения [WIP]
 
 function load()
@@ -112,7 +104,7 @@ window[stage]()
 }
 function save(stage)
 {
-	if (SAVE_PARAM==1)
+	if (SAVE_PARAM)
 	{
 		Cookies.set('stage',stage); 
 	}
