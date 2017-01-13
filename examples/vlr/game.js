@@ -5,7 +5,7 @@ changetext("Добро пожаловать в Viva la Revolution!")
 addaction("Начать игру","start")
 addaction("Об игре","about")
 addaction("Сайт автора","site")
-playmusic("bloodonwhite",30)
+playmusic("society")
 if (dismuss==0)
 {
 addaction("Выключить музыку","disablemusic")
