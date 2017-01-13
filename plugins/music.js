@@ -1,8 +1,12 @@
 var background = document.createElement('audio');
+
+
+$(document).ready(function() {
 if (MUSIC_LOOP)
 {
 background.loop="loop"
 }
+});
 
 // Музыка
 
