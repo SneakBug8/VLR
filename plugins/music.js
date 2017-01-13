@@ -18,8 +18,12 @@ function enablemusic()
 dismuss=0
 }
 
-function playmusic(name) // Background music changer
+function playmusic(name,time) // Background music changer
 {
+	if (typeof(time)=="integer")
+	{
+		background.currentTime = time;
+	}
 	if (dismuss==0)
 	{
 background.src="music/"+name+".mp3"
