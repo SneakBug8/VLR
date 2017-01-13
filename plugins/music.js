@@ -25,7 +25,7 @@ function playmusic(name,time) // Background music changer
 background.src="music/"+name+".mp3"
 background.play()
 
-	if (typeof(time)=="integer")
+	if (typeof(time)!='undefined')
 	{
 		background.currentTime = time;
 	}

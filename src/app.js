@@ -78,7 +78,7 @@ function showend(text){
 
 // Добавление действия
 function addaction(text,func,name){
-	if (typeof(name)=="text")
+	if (typeof(name)!="undefined")
 {
 	id=name
 }
