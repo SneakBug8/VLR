@@ -77,14 +77,22 @@ function showend(text){
 }
 
 // Добавление действия
-function addaction(text,func){
+function addaction(text,func,name){
+	if (typeof(name)=="text")
+{
+	id=name
+}
+else
+{
 	id=id+1
+}
 var text=document.getElementById("do").innerHTML+"<li id='act"+id+"'><a href='javascript://' onclick='"+func+"()'>"+text+"</a></li>"
   $("ul.do").html(text)  
 }
 
 // Удаление действия с номером id
-function remaction(id){
+function remaction(id)
+{
 $("#act"+id).remove()
 }
 
