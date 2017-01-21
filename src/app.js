@@ -1,11 +1,11 @@
-id=0
+﻿id=0
 time=0
 
 // Исходный код
 
 // Функция, выполняемая при окончании загрузки элемента
 $(document).ready(function() {
-if (screen.width<REDIRECT_W || screen.height<REDIRECT_H)
+if (screen.width<REDIRECT_W || screen.height<REDIRECT_H && window.location!=MOBILE_ADR)
 {
 	window.location=MOBILE_ADR
 }
