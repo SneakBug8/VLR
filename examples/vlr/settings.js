@@ -1,4 +1,4 @@
-// Настройки
+﻿// Настройки
 TITLE="Viva la Revolution | Текстовая adventure игра" // Название приложения
 AUTHOR="[SneakBug8]" // Автор
 AUTHORLINK="http://www.etrt.ru/" // Ссылка на сайт автора
@@ -14,7 +14,7 @@ SAVE_VAR='chapter' // Какую переменную сохранять
 // Переадресация на моб версию.
 REDIRECT_W=400 // Макс Ширина для редиректа
 REDIRECT_H=400 // Макс Высота для редиректа
-MOBILE_ADR="https://sneakbug8.github.io/VLR/examples/vlr/mob.html" // Адрес для редиректа
+MOBILE_ADR="https://sneakbug8.github.io/VLR/examples/vlr/mobile.html" // Адрес для редиректа
 
 MUSIC_ACTION=4// Номер действия с отключением звука
 MUSIC_LOOP=true // Включить ли повторение музыки
