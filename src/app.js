@@ -5,7 +5,7 @@ time=0
 
 // Функция, выполняемая при окончании загрузки элемента
 $(document).ready(function() {
-if (screen.width<REDIRECT_W || screen.height<REDIRECT_H && window.location!=MOBILE_ADR)
+if (screen.width<REDIRECT_W || screen.height<REDIRECT_H && VER!='mobile')
 {
 	window.location=MOBILE_ADR
 }
