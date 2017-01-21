@@ -5,9 +5,12 @@ time=0
 
 // Функция, выполняемая при окончании загрузки элемента
 $(document).ready(function() {
-if (screen.width<REDIRECT_W || screen.height<REDIRECT_H && VER!='mobile')
+if (screen.width<REDIRECT_W || screen.height<REDIRECT_H )
 {
+	if (VER!='mobile')
+	{
 	window.location=MOBILE_ADR
+	}
 }
 	$("#author").html('<a id="author "href="'+AUTHORLINK+'">'+AUTHOR+'</a>')
 	$('title').text(TITLE);
